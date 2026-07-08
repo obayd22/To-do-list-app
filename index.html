@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>To-Do list App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h1>To-Do App</h1>
+        
+        <div class="stat-container">
+
+          <div class="details">
+            <h3>Keep it up!</h3>
+            <div class="progressbar">
+              <div class="progress"></div>
+            </div>
+          </div>
+
+          <div class="stats-number">
+            <p id="numbers">0 / 0</p>
+          </div>
+        </div>
+
+        <form class="input-area">
+          <input type="text" id="task-input" placeholder="add a new task..." />
+          
+          <button type="submit" id="add-task-btn">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </form>
+
+
+        <div class="todos-container">
+          <ul id="task-list"></ul>
+          <img
+            class="empty-image"
+            src="/images/emptyTaskLogo.svg"
+            alt="empty"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@4.3.1/tsparticles.confetti.bundle.min.js"></script>
+   
+</html>
