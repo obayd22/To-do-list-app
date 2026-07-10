@@ -1,6 +1,6 @@
 # To-Do List App
 
-A responsive to-do list application built with vanilla HTML, CSS, and JavaScript. The application allows users to create, edit, complete, and delete tasks while automatically saving data in the browser using Local Storage.
+A responsive to-do list application built with HTML, CSS, and vanilla JavaScript. The application allows users to create, edit, complete, and delete tasks while automatically saving data in the browser using Local Storage.
 
 **Live Demo:** https://obayd22.github.io/To-do-list-app/
 
